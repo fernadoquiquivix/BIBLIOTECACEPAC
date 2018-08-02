@@ -266,9 +266,9 @@ Partial Class frmDetalle_Donacion
         Me.Label6.Font = New System.Drawing.Font("Arial Narrow", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(544, 88)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(78, 23)
+        Me.Label6.Size = New System.Drawing.Size(94, 23)
         Me.Label6.TabIndex = 29
-        Me.Label6.Text = "Cantidad"
+        Me.Label6.Text = "Ejemplares"
         '
         'txtcantidad
         '
