@@ -138,6 +138,7 @@
     <Compile Include="Logica\vprestamo.vb" />
     <Compile Include="Logica\vubicacion.vb" />
     <Compile Include="Logica\vusuario.vb" />
+    <Compile Include="Modulo\MdRegistroLibro.vb" />
     <Compile Include="Presentacion\CargaSys.Designer.vb">
       <DependentUpon>CargaSys.vb</DependentUpon>
     </Compile>

@@ -124,6 +124,23 @@ Public Class FrmRegistroLibro_
 
     Private Sub BtnBuscarAutor_Click(sender As Object, e As EventArgs) Handles BtnBuscarAutor.Click
         frmBuscarAutor.ShowDialog()
+
+        If MdVariableControlCalidad.LoteConteoKPIS <> Nothing Then
+
+            TxtLoteConteo.Text = MdVariableControlCalidad.LoteConteoKPIS
+            TxtRuedaConteo.Text = MdVariableControlCalidad.RuedaConteoKPIS
+            TxtProveedorConteo.Text = MdVariableControlCalidad.ProveedorKPIS
+            TxtProcedenciaConteo.Text = MdVariableControlCalidad.FincaKPIS
+            BtnProducto.Focus()
+
+
+        Else
+            BtnBuscarLote.Focus()
+
+        End If
+
+
+
         MsgBox(dts.GIDCODIGOAUTOR)
     End Sub
 
