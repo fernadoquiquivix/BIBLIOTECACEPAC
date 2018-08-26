@@ -6,6 +6,7 @@ Public Class frmBuscarLibro
         'llamo a la funcion mostrar
         mostrar()
         'titulo a columnas
+
         'datalistado.Columns(4).HeaderText = "FECHA"
         'datalistado.Columns(7).HeaderText = "CATEGORIA"
         'datalistado.Columns(9).HeaderText = "AUTOR"
